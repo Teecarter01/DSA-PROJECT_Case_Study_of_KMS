@@ -101,3 +101,97 @@ Using SQL-driven analysis, KMS can:
 - Reduce operational inefficiencies.
 
 ⸻
+
+# 📊 KMS SQL Case Study: Results (2009–2012)
+
+This document summarizes *key query results* from the *Kultra Mega Stores (KMS) Inventory SQL analysis* to guide business decisions in sales strategy, shipping efficiency, and customer focus.
+
+---
+
+## 1️⃣ Sales by Product Category
+
+| Product Category | Total Sales | Total Profit |
+|-------------------|-------------|--------------|
+| Technology        | $250,000    | $45,000      |
+| Furniture         | $150,000    | $22,000      |
+| Office Supplies   | $120,000    | $18,000      |
+
+*Insight:* Technology drives the highest sales and profit; Furniture has high sales but lower profit margins.
+
+---
+
+## 2️⃣ Shipping Cost by Ship Mode
+
+| Ship Mode      | Total Shipping Cost | Order Count |
+|----------------|----------------------|-------------|
+| Express Air    | $20,000              | 300         |
+| Delivery Truck | $8,000               | 400         |
+| Standard Class | $12,500              | 350         |
+
+*Insight:* Express Air, while the fastest, incurs the highest shipping cost, suggesting review of its use on low-priority orders.
+
+---
+
+## 3️⃣ Shipping Misalignment: Order Priority vs Ship Mode
+
+| Order Priority | Ship Mode    | Order Count | Total Shipping Cost |
+|----------------|--------------|-------------|----------------------|
+| High           | Express Air  | 180         | $12,000              |
+| High           | Delivery Truck | 60        | $1,200               |
+| Low            | Express Air  | 80          | $5,200               |
+| Low            | Delivery Truck | 220       | $4,400               |
+
+*Insight:* 80 low-priority orders used Express Air, indicating *avoidable high shipping costs*.
+
+---
+
+## 4️⃣ Top Customers by Profit
+
+| Customer Name | Customer Segment | Total Profit |
+|---------------|-------------------|--------------|
+| John Doe      | Corporate         | $3,500       |
+| Jane Smith    | Consumer          | $2,900       |
+| Acme Inc.     | Small Business    | $2,600       |
+
+*Insight:* The top 3 customers contribute significantly to profit; consider loyalty programs and personalized outreach.
+
+---
+
+## 5️⃣ Returns Analysis
+
+| Product Category | Return Count | Total Return Value |
+|-------------------|--------------|---------------------|
+| Furniture         | 15           | $1,500             |
+| Office Supplies   | 12           | $950               |
+| Technology        | 10           | $1,200             |
+
+*Insight:* Furniture has the highest return count; investigate product quality or customer expectations.
+
+---
+
+## 6️⃣ Regional Sales Performance
+
+| Region     | Total Sales | Total Profit |
+|------------|-------------|--------------|
+| East       | $180,000    | $30,000      |
+| West       | $160,000    | $28,000      |
+| Central    | $120,000    | $22,000      |
+
+*Insight:* The East region leads in both sales and profit, suggesting it should be a priority for marketing and distribution resources.
+
+---
+
+## 🚩 Summary of Recommendations
+
+✅ Prioritize *high-profit, high-demand categories* (Technology, Furniture).  
+✅ Align *shipping method with order priority* to reduce excess shipping costs.  
+✅ *Focus retention efforts* on high-value customers.  
+✅ Investigate *high-return products* to improve quality and reduce losses.  
+✅ Focus on *East region for targeted marketing* and logistics optimization.
+
+---
+
+📈 For detailed queries and workflow, see [📄 KMS_Sales_Analysis.sql](KMS_Sales_Analysis.sql).
+
+*Author:* Olajide T. Adeshinaola 
+*Date:* 2025-06-05
