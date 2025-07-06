@@ -192,7 +192,7 @@ This document summarizes *key query results* from the *Kultra Mega Stores (KMS) 
 ---
 
 
-📈 For detailed queries and workflow, see 
+📈 For detailed queries and workflow, see https://github.com/Teecarter01/DSA-PROJECT_Case_Study_of_KMS/commit/022bae21c1e38a900f1259d888e48bc62979575d#diff-6c47ddc0655562df72e871b03970e59c41b33c0894ddf5c723b00f2d91f9d127
 
 
 *Author:* Olajide T. Adeshinaola 
