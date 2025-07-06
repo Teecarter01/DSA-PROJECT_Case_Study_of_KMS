@@ -192,7 +192,9 @@ This document summarizes *key query results* from the *Kultra Mega Stores (KMS) 
 ---
 [Uploading KMS Sql Case Study.csv…]()
 
-📈 For detailed queries and workflow, see [📄KSMS SALES ANALYSIS BY OLAJIDE T. ADESHINAOLA](.
+📈 For detailed queries and workflow, see git add filename.sql
+
+
 
 *Author:* Olajide T. Adeshinaola 
 *Date:* 2025-06-05
