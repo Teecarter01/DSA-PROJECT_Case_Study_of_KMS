@@ -190,10 +190,9 @@ This document summarizes *key query results* from the *Kultra Mega Stores (KMS) 
 ✅ Focus on *East region for targeted marketing* and logistics optimization.
 
 ---
-[Uploading KMS Sql Case Study.csv…]()
 
-📈 For detailed queries and workflow, see git add filename.sql
 
+📈 For detailed queries and workflow, see 
 
 
 *Author:* Olajide T. Adeshinaola 
